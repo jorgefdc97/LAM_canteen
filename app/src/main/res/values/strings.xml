@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">UPT_Cantina_44549</string>
+    <string name="university" translatable="false">Universidade Portucalense</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="soup">Pretende sopa?</string>
+    <string name="mainDish">Prato de carne ou peixe?</string>
+    <string name="meat">Carne</string>
+    <string name="fish">Peixe</string>
+    <string name="goBack">Voltar atrás</string>
+    <string name="dessert">Fruta ou doce?</string>
+    <string name="fruit">Fruta</string>
+    <string name="sweet">Doce</string>
+    <string name="menu">Refeição escolhida:</string>
+</resources>
