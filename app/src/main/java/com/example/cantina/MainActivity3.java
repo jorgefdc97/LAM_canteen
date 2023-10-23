@@ -11,14 +11,12 @@ public class MainActivity3 extends AppCompatActivity {
 
     public static String OPTION_DESSERT = "";
     private Intent intent;
-    private Intent intentBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
         intent = new Intent(this, MainActivity4.class);
-        intentBack = new Intent(this, MainActivity2.class);
     }
 
     public void onClick(View view){
@@ -28,6 +26,6 @@ public class MainActivity3 extends AppCompatActivity {
     }
 
     public void onClickBack(View view){
-        startActivity(intentBack);
+        finish();
     }
 }
